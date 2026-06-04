@@ -32,10 +32,6 @@ YDL_BASE_OPTS = {
     }
 }
 
-# =========================
-# DATABASE
-# =========================
-
 def db():
     return sqlite3.connect(
         DB_FILE,
